@@ -173,6 +173,34 @@ li:hover {
     color: #fff;
 }
 
+#session-comments {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#cards-comments {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 40px;
+    column-gap: 40px;
+}
+
+#comment {
+    width: 90%;
+    height: 200px;
+    background-color: red;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
 footer {
     height: 300px;
     margin-top: 50px;
