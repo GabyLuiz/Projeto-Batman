@@ -201,6 +201,61 @@ li:hover {
     align-items: center;
 }
 
+#galeria-photos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#photos-movie {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.photo {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+}
+
+.img-1 {
+    background-image: url(https://i0.wp.com/almanaque21.com.br/wp-content/uploads/2022/03/rev-1-TBM-11721r_High_Res_JPEG-1-scaled.jpeg?fit=2560%2C1707&ssl=1);
+}
+
+.img-2 {
+    background-image: url(https://www.showmetech.com.br/wp-content/uploads//2022/03/MV5BMWQ1MmQyOTItNzRkNS00ZmNjLThjNTAtZmEzNDc1MzgwYTg5XkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_-1024x576.jpg.webp);
+}
+
+.img-3 {
+    background-image: url(https://lumealuioliver.ro/wp-content/uploads/2024/06/thumb_E73CC7F6-2A6D-4091-8B93-920C6DE6D730.jpg);
+}
+
+.img-4 {
+    background-image: url(https://d2d7ho1ae66ldi.cloudfront.net/ArquivoNoticias/48d81659-b453-11ed-aa6e-9587410378a2/batman-ii.jpg);
+}
+
+.img-5 {
+    background-image: url(https://d2d7ho1ae66ldi.cloudfront.net/ArquivoNoticias/f40a2a31-98d3-11ec-aa6e-9587410378a2/battinson.jpg);
+}
+
+.img-6 {
+    background-image: url(https://www.premiere.fr/sites/default/files/styles/scale_crop_1280x720/public/2022-03/274956339_625349532174011_4148429101934709022_n.jpg);
+}
+
+.img-7 {
+    background-image: url(https://media.gq.com.mx/photos/6220d61a75c6fd140bbdb893/16:9/w_2560%2Cc_limit/BRUCE%2520WAYNE.jpg);
+}
+
+.img-8 {
+    background-image: url(https://italianinews.com/wp-content/uploads/jet-engine-forms/78/2024/09/new-trailer-the-penguin-max-series-batman-dc-comics_861r.jpg);
+}
+
 footer {
     height: 300px;
     margin-top: 50px;
