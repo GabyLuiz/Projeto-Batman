@@ -328,6 +328,7 @@ span {
         height: 400px;
         display: flex;
         flex-direction: column;
+        margin-top: 40px;
     }
 
     .content {
@@ -359,5 +360,17 @@ span {
     .cards-content {
         grid-template-columns: 1fr;
         margin-top: 150px;
+    }
+
+    #fala {
+        font-size: 30px;
+    }
+
+    #cards-comments {
+        grid-template-columns: 1fr;
+    }
+
+    #photos-movie {
+        grid-template-columns: 1fr;
     }
 }
